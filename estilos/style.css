@@ -1,0 +1,119 @@
+/* https://www.dafont.com/es/ --> pagina de fuentes
+https://fonts.google.com/
+    
+*/
+@font-face {
+    font-family: "brusha";
+    src: url(./multimeda/fonts/brusha/Brusha.ttf);
+}
+
+@font-face {
+    font-family: "british";
+    src: url(multimeda/fonts/british_classical/British\ Classical\ Demo.ttf);
+}
+
+@font-face {
+    font-family: "reusco";
+    src: url(multimeda/fonts/reusco_display/Reusco\ Display.otf);
+}
+
+header, footer{
+    background-color: aqua;
+}
+
+html {
+    background-color: brown;
+}
+
+.item-navbar {
+    font-family: "british";
+}
+
+.texto {
+    font-family: "reusco";
+}
+
+li{
+    list-style: none;
+    display: inline; /*mantiene los elementos enlinea*/
+}
+
+.contenedor {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.contenido, .formulario {
+    width: 50%;
+    height: 300px;
+    padding-left: 20px;
+}
+
+.formulario {
+    background-color: aliceblue;
+}
+
+.input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.label {
+    height: 40px;
+}
+
+#mensaje {
+    height: 80px;
+}
+
+.enviar {
+    margin-top: 10px;
+}
+
+.divForm {
+    width: 40%;
+    margin: 30px auto;
+}
+
+.informacion {
+    display: inline-flex;
+}
+
+.mapa {
+    width: 100%;
+}
+
+.barraNavegacion {
+    text-align: right;
+    vertical-align: middle;
+}
+.titulo {
+    font-size: 30px;
+}
+.navBar {
+}
+
+.label {
+    width: 500px;
+}
+
+.musica {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.youtube {
+    width: 50%;
+    padding-left: 20%;
+}
+
+iframe {
+    margin-top: 60px;
+    margin-right: 60px;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
