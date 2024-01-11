@@ -25,9 +25,18 @@ html {
     background-color: brown;
 }
 
-.item-navbar {
+.item-navbar :hover {
     font-family: "british";
+    color: red;
 }
+
+.item-navbar :active {
+    color: yellow;
+} 
+
+.links :active {
+    color: yellow;
+} 
 
 .texto {
     font-family: "reusco";
@@ -90,8 +99,6 @@ li{
 .titulo {
     font-size: 30px;
 }
-.navBar {
-}
 
 .label {
     width: 500px;
@@ -117,3 +124,5 @@ iframe {
     flex-direction: column;
     row-gap: 10px;
 }
+
+/* navbar hover */
