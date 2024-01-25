@@ -17,22 +17,69 @@ https://fonts.google.com/
     src: url(multimeda/fonts/reusco_display/Reusco\ Display.otf);
 }
 
+html {
+    background-image: url(../multimedia/img/4\ ideias\ de\ instrumentos\ musicais\ para\ vender\ no\ Mercado\ Livre.webp);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
 header, footer{
-    background-color: aqua;
+    background-color: black;
+}
+
+ul {
+    font-size: large;
+    margin-left: 65%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pieDePagina {
+    height: 60px;
 }
 
 html {
     background-color: brown;
 }
 
+a{ 
+    text-decoration: none;
+    color: white;
+}
+
+
 .item-navbar :hover {
     font-family: "british";
-    color: red;
+    color: rgb(72, 4, 182);
 }
 
 .item-navbar :active {
     color: yellow;
 } 
+
+.barraNavegacion {
+    width: 87%;
+}
+
+.navBar {
+    display: flex;
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 2%;
+    width: 20%;
+
+}
 
 .links :active {
     color: yellow;
@@ -49,13 +96,29 @@ li{
 
 .contenedor {
     margin: 0 auto;
-    width: 70%;
+    width: 90%;
 }
 
 .contenido, .formulario {
     width: 50%;
     height: 300px;
     padding-left: 20px;
+}
+
+.contenido {
+    width: 40%;
+    border: 2px solid red;
+    background-color: rgb(133, 81, 81);
+}
+
+#contenido-medio {
+    margin-left: auto;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
 }
 
 .formulario {
@@ -96,33 +159,36 @@ li{
     text-align: right;
     vertical-align: middle;
 }
-.titulo {
-    font-size: 30px;
-}
+
 
 .label {
     width: 500px;
 }
 
-.musica {
-    width: 50%;
-    padding-left: 10px;
+.contenido-audiovisual {
+    display: flex;
 }
 
-.youtube {
+.musica, .youtube {
+    border: 2px solid rgb(117, 19, 19);
     width: 50%;
-    padding-left: 20%;
+}
+
+.musica {
+    display: flex;
+
+}
+
+.lista-contenido {
+    display: block;
+    border: 3px solid black;
+}
+
+.item-contenido {
+    border: 2px solid white;
 }
 
 iframe {
     margin-top: 60px;
     margin-right: 60px;
 }
-
-.video {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-}
-
-/* navbar hover */
