@@ -17,21 +17,29 @@ https://fonts.google.com/
     src: url(multimeda/fonts/reusco_display/Reusco\ Display.otf);
 }
 
+li {
+    list-style: none;
+}
+
 html {
-    background-image: url(../multimedia/img/4\ ideias\ de\ instrumentos\ musicais\ para\ vender\ no\ Mercado\ Livre.webp);
+    /* background-image: url(../multimedia/img/4\ ideias\ de\ instrumentos\ musicais\ para\ vender\ no\ Mercado\ Livre.webp); */
 }
 
 h1 {
     display: flex;
     justify-content: center;
+    font-size: 3em;
+}
 
+main {
+    min-height: 1000px;
 }
 
 header, footer{
     background-color: black;
 }
 
-ul {
+.ulMenu  {
     font-size: large;
     margin-left: 65%;
     display: flex;
@@ -40,6 +48,7 @@ ul {
 
 .pieDePagina {
     height: 60px;
+    margin: auto;
 }
 
 html {
@@ -53,7 +62,6 @@ a{
 
 
 .item-navbar :hover {
-    font-family: "british";
     color: rgb(72, 4, 182);
 }
 
@@ -68,17 +76,27 @@ a{
 .navBar {
     display: flex;
     text-align: right;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-navbar {
+    list-style: none;
+    display: inline; /*mantiene los elementos enlinea*/
+    font-size: 20px;
 }
 
 .titulo {
     color: white;
     font-size: 30px;
     text-align: left;
-    margin-top: 10px;
+    margin-top: 13px;
     margin-left: 2%;
     width: 20%;
 
+}
+
+p , h1, .label {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .links :active {
@@ -86,28 +104,23 @@ a{
 } 
 
 .texto {
-    font-family: "reusco";
-}
-
-li{
-    list-style: none;
-    display: inline; /*mantiene los elementos enlinea*/
+    text-align: justify;
+    font-size: 1.1em;
+    padding: 30px;
 }
 
 .contenedor {
     margin: 0 auto;
     width: 90%;
+    /* border: 3px solid greenyellow; */
 }
 
 .contenido, .formulario {
     width: 50%;
-    height: 300px;
     padding-left: 20px;
 }
 
 .contenido {
-    width: 40%;
-    border: 2px solid red;
     background-color: rgb(133, 81, 81);
 }
 
@@ -115,44 +128,50 @@ li{
     margin-left: auto;
 }
 
-p {
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-}
-
 .formulario {
     background-color: aliceblue;
 }
 
 .input {
-    width: 100%;
+    width: 500px;
     margin-bottom: 10px;
 }
 
 .label {
-    height: 40px;
+    height: 60px;
+    width: 350px;
 }
 
 #mensaje {
     height: 80px;
 }
 
+form {
+    width: 500px;
+}
+
 .enviar {
     margin-top: 10px;
+    text-align: center;
+}
+
+.botonEnviar {
+    height: 40px;
+    width: 508px;
 }
 
 .divForm {
-    width: 40%;
+    width: 60%;
     margin: 30px auto;
 }
 
 .informacion {
-    display: inline-flex;
+    display: flex;
 }
 
 .mapa {
     width: 100%;
+    margin-top: 20px;
 }
 
 .barraNavegacion {
@@ -160,35 +179,42 @@ p {
     vertical-align: middle;
 }
 
-
-.label {
-    width: 500px;
-}
-
 .contenido-audiovisual {
     display: flex;
 }
 
 .musica, .youtube {
-    border: 2px solid rgb(117, 19, 19);
     width: 50%;
+    text-align: center;
 }
 
-.musica {
-    display: flex;
-
+h2 {
+    text-align: center;
+    font-size: 2em;
 }
 
-.lista-contenido {
-    display: block;
-    border: 3px solid black;
+.listaContenido {
+    /* border: 2px solid green; */
+    text-align: center;
 }
 
-.item-contenido {
-    border: 2px solid white;
+.itemContenido {
+    /* border: 2px solid rgb(66, 56, 56); */
+    margin-bottom: 30px;
+}
+
+.mapaImport {
+    width: 100%; 
+    height: 500px;
 }
 
 iframe {
-    margin-top: 60px;
-    margin-right: 60px;
+    width: 60%;
+    height: 300px;
+}
+
+h6 {
+    text-align: end;
+    font-style: italic;
+    font-size: 1em;
 }
