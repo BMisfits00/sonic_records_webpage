@@ -49,26 +49,22 @@
                         <form>
                             <div class="itemFormulario">
                                 <label for="nombre" class="label">Ingrese su nombre *</label>
-                            </div>
-                            <div class="itemFormulario">
                                 <input type="text" class="input" name="nombre" required>
                             </div>
+
                             <div class="itemFormulario">
                                 <label for=email class="label">Ingrese su mail *</label>
-                            </div>
-                            <div class="itemFormulario">
                                 <input type="email" class="input" name="email" required>
                             </div>
                             <div class="itemFormulario">
-                                <label for="mensaje" class="label" id="mensaje">Mensaje</label>
-                            </div>
-                            <div class="itemFormulario">
-                                <input name="mensaje" class="input" id="mensaje" required>
+                                <label for="mensaje" class="label">Mensaje</label>
+                                <br>
+                                <textarea name="textArea"></textarea>
+                                <!-- <input name="mensaje" class="input" id="mensaje" required> -->
                             </div>
 
-                            <div class="enviar">
-                                <label for="Enviar"></label>
-                                <input class="botonEnviar" type="submit" value="Enviar">
+                            <div class="itemFormulario">
+                                <button class="botonEnviar" type="submit">Enviar</button>
                             </div>
                         </form>
                     </div>
