@@ -2,6 +2,34 @@
 https://fonts.google.com/
     
 */
+@media (min-width : 768px)
+{   
+  .padin {
+    padding: 20px;
+  }
+  .borderimg {
+    border-left: 1px solid black ;
+    border-right: 1px solid black ;
+    border-top: 1px solid black;
+  }
+  .bordertxt {
+    border-left: 1px solid black ;
+    border-right: 1px solid black ;
+    border-bottom: 1px solid black;
+  }
+  .imgborder {
+    border-radius: 20px;
+  }
+}
+@media (max-width : 768px)
+{   
+  .padin {
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+}
+
 @font-face {
     font-family: "brusha";
     src: url(./multimeda/fonts/brusha/Brusha.ttf);
@@ -16,9 +44,26 @@ https://fonts.google.com/
     font-family: "reusco";
     src: url(multimeda/fonts/reusco_display/Reusco\ Display.otf);
 }
+
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+  body {
+    background-image: url(./../multimedia/img/guitarwithnotesandmusic_3172767.jpg);
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+.alto {
+    min-height: 100vh;
+}
+
 .titulo {
     color:white;
-    text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:xx-large;
 }
@@ -36,7 +81,9 @@ https://fonts.google.com/
     color: black;
     background-color: rgb(175, 152, 134);
 }
-
+.cardfondo{
+    background-color: rgb(175, 152, 134);
+}
 .dos {
     background-color: #edece3;
 }
@@ -44,16 +91,16 @@ https://fonts.google.com/
     background-color: #f6f6f1;
 }
 .fondo {
-    background-image: url(../multimedia/img/guitarwithnotesandmusic_3172767.jpg);
-    background-size: contain;
+    
+    background-size: cover;
     opacity: 0.8;
-    min-height: 500px;
+    min-height : 600px;
  }
  .fondopages {
-    background-image: url(./../multimedia/img/guitarwithnotesandmusic_3172767.jpg);
-    background-size: contain;
+    background-image: url(./../guitarwithnotesandmusic_3172767.jpg);
+    background-size: cover ;
     opacity: 0.8;
-    min-height: 500px;
+    min-height:600px;
  }
  .subtitulo{
     text-align: center;
@@ -79,12 +126,12 @@ li {
     list-style: none;
 }
 
-
-
 h1 {
     display: flex;
+    font-style: italic;
     justify-content: center;
     font-size: 3em;
+    padding-top: 20px;
 }
 
 main {
@@ -95,6 +142,37 @@ header, footer{
     background-color: black;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.redesSociales {
+    margin-left: 30px;
+}
+
+.item-pieDePagina {
+    display: inline-block;
+    color: #f6f6f1;
+}
+
+.nombreFooter {
+    font-size: 20px;
+    width: 88%; 
+    line-height: 60px;
+}
+
+.ancho10 {
+    width: 10%;
+    line-height: 60px;
+}
+
+.ancho30 {
+    width: 30%;
+}
+
 .ulMenu  {
     font-size: large;
     margin-left: 65%;
@@ -102,43 +180,10 @@ header, footer{
     justify-content: space-evenly;
 }
 
-.pieDePagina {
-    height: 60px;
-    margin: auto;
-}
-
-html {
-    background-color: brown;
-}
-
-a{ 
-    text-decoration: none;
-    color: white;
-}
-
-
-.item-navbar :hover {
-    color: rgb(72, 4, 182);
-}
-
-.item-navbar :active {
-    color: yellow;
-} 
-
-.barraNavegacion {
-    width: 87%;
-}
-
 .navBar {
     display: flex;
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.item-navbar {
-    list-style: none;
-    display: inline; /*mantiene los elementos enlinea*/
-    font-size: 20px;
 }
 
 .titulo {
@@ -151,13 +196,9 @@ a{
 
 }
 
-p , h1, .label {
-    font-family: Arial, Helvetica, sans-serif;
+p , h1, .label, .nombreFooter {
+    font-family: "reusco";
 }
-
-.links :active {
-    color: yellow;
-} 
 
 .texto {
     text-align: justify;
@@ -169,7 +210,6 @@ p , h1, .label {
 .contenedor {
     margin: 0 auto;
     width: 90%;
-    /* border: 3px solid greenyellow; */
 }
 
 .contenido, .formulario {
@@ -190,36 +230,36 @@ p , h1, .label {
 }
 
 .input{
-    width: 500px;
+    width: 100%;
     margin-bottom: 10px;
 }
 
-.label{
-    height: 10px;
-    width: 400px;
+label{
+    height: 25px;
+    width: 100%;
 }
 
 #mensaje {
     height: 120px;
 }
 
-textarea {
-    width: 500px;
-    height: 200px;
+.textarea {
+    width: 100%;
+    height: 180px;
 }
 
 form {
-    width: 500px;
+    width: 80%;
 }
 
 .botonEnviar {
     height: 40px;
-    width: 508px;
+    width: 80%;
     margin-top: 10px;
 }
 
 .divForm {
-    width: 60%;
+    width: 80%;
     margin: 30px auto;
 }
 
@@ -230,7 +270,7 @@ form {
 .mapa {
     width: 100%;
     margin-top: 20px;
-    margin-left: 30px;
+ 
 }
 
 .barraNavegacion {
@@ -252,14 +292,12 @@ h2 {
     font-size: 2em;
 }
 
-.listaContenido {
-    /* border: 2px solid green; */
-    text-align: center;
+.listaContenido, .listaContenidoAudio {
+    padding-left: 0px;
 }
 
-.itemContenido {
-    /* border: 2px solid rgb(66, 56, 56); */
-    margin-bottom: 30px;
+.itemContenidoAudio {
+    text-align: center;
 }
 
 .mapaImport {
@@ -267,7 +305,7 @@ h2 {
 }
 
 iframe {
-    width: 60%;
+    width: 80%;
     height: 300px;
 }
 
@@ -275,4 +313,13 @@ h6 {
     text-align: end;
     font-style: italic;
     font-size: 1em;
+}
+
+.formularioContacto {
+    margin: 0 auto;
+}
+
+.botonEnviar {
+    width: auto;
+    text-align: center;
 }
