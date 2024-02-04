@@ -111,6 +111,11 @@ https://fonts.google.com/
     font-size: 20px;
     
 }
+
+.titulo-evento {
+    text-decoration: underline;
+}
+
 .rowfondo{
     background-color: black;
     margin-bottom: 15px;
