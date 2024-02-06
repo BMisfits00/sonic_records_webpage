@@ -1,28 +1,10 @@
 $fuente-general: "reusco";
 $color-negro: black;
+@import"mobile";
+@import "generales";
 @import "footer";
 @import "inicio";
 @import "sobreNosotros";
 @import "materialAudiovisual";
 @import "eventos";
 @import "contacto";
-
-* {
-    margin : 0;
-    padding: 0;
-    box-sizing: border-box;
-    body {
-        background-image: url(./../multimedia/img/guitarwithnotesandmusic_3172767.jpg);
-        background-size: cover;
-        min-height: 100vh;
-        main {
-            min-height: 1000px;
-        }
-        p , .label {
-            font-family: "reusco";
-        }
-        li {
-            list-style: none;
-        }
-      }
-}

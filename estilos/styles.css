@@ -1,3 +1,47 @@
+@media (min-width: 768px) {
+  .padin {
+    padding: 20px;
+  }
+  .borderimg {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+  }
+  .bordertxt {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  .imgborder {
+    border-radius: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .padin {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* body {
+  background-image: url(./../multimedia/img/guitarwithnotesandmusic_3172767.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+* body main {
+  min-height: 1000px;
+}
+* body p, * body .label {
+  font-family: "reusco";
+}
+* body li {
+  list-style: none;
+}
+
 footer {
   background-color: black;
 }
@@ -125,26 +169,6 @@ h6 {
   text-align: end;
   font-style: italic;
   font-size: 1em;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-* body {
-  background-image: url(./../multimedia/img/guitarwithnotesandmusic_3172767.jpg);
-  background-size: cover;
-  min-height: 100vh;
-}
-* body main {
-  min-height: 1000px;
-}
-* body p, * body .label {
-  font-family: "reusco";
-}
-* body li {
-  list-style: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
