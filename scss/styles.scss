@@ -1,5 +1,6 @@
-$fuente-general: "reusco";
-$color-negro: black;
+@import "variables";
+@import "mapas";
+
 @import"mobile";
 @import "generales";
 @import "footer";

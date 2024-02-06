@@ -1,13 +1,11 @@
-$font-subtitulo: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 .cardfondo{
-    background-color: rgb(175, 152, 134);
+    background-color: map-get($colores-background, fondo-uno);
     .rowfondo{
-        background-color: black;
+        background-color: map-get($colores-background, oscuro);
         margin-bottom: 15px;
         .subtitulo{
             text-align: center;
-            color:white;
+            color:map-get($colores-background, blanco);
             text-align: center;
             align-content: center;
             font-family: $font-subtitulo;

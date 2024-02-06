@@ -4,14 +4,14 @@
     padding: 20px;
   }
   .borderimg {
-    border-left: 1px solid black ;
-    border-right: 1px solid black ;
-    border-top: 1px solid black;
+    border-left: 1px solid map-get($colores-background, oscuro);
+    border-right: 1px solid map-get($colores-background, oscuro);
+    border-top: 1px solid map-get($colores-background, oscuro);
   }
   .bordertxt {
-    border-left: 1px solid black ;
-    border-right: 1px solid black ;
-    border-bottom: 1px solid black;
+    border-left: 1px solid map-get($colores-background, oscuro);
+    border-right: 1px solid map-get($colores-background, oscuro);
+    border-bottom: 1px solid map-get($colores-background, oscuro);
   }
   .imgborder {
     border-radius: 20px;

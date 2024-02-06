@@ -1,0 +1,16 @@
+@import "variables";
+
+$colores-background: (
+    fondo-uno: rgb(175, 152, 134),
+    fondo-dos: #edece3,
+    fondo-tres: #f6f6f1,
+    fondo-cuatro: rgb(123, 131, 78),
+    fondo-cinco: #dad9c7,
+    oscuro: black,
+    blanco: white
+);
+
+$fonts: (
+    fuente-principal: "reusco",
+    fuente-secundaria:  'Lucida Sans'
+) //por el momento no use las fonts
