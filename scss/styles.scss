@@ -1,4 +1,11 @@
 $fuente-general: "reusco";
+$color-negro: black;
+@import "footer";
+@import "inicio";
+@import "sobreNosotros";
+@import "materialAudiovisual";
+@import "eventos";
+@import "contacto";
 
 * {
     margin : 0;
@@ -8,75 +15,14 @@ $fuente-general: "reusco";
         background-image: url(./../multimedia/img/guitarwithnotesandmusic_3172767.jpg);
         background-size: cover;
         min-height: 100vh;
-    
         main {
             min-height: 1000px;
-            .alto {
-                min-height: 100vh;
-                .titulo {
-                    border: 2px solid white;
-                    font-family: $fuente-general;
-                    color: white;
-                    display: flex;
-                    font-style: italic;
-                    justify-content: center;
-                    padding-top: 20px;
-                }
-    
-                .box1 {
-                    border-radius: 15px;
-                    padding: 15px;
-                    border: 1px solid black;
-                    background-color: #dad9c7;
-                    color: black;
-                    .barralateral {
-                        font-family: $fuente-general;
-                        border-left: 10px solid rgb(123, 131, 78); 
-                        padding-left: 15px;
-                        color: black;
-                    }
-                }
-                .dos {
-                    background-color: #edece3;
-                }
-                .tres {
-                    background-color: #f6f6f1;
-                }
-            }
         }
-        
-        // p , .label { //Revisar el tema del nesting y la herencia
-        //     font-family: "reusco";
-        // }
-        
-        footer{
-            background-color: black;
-            .redesSociales {
-                margin-left: 30px;
-                .item-pieDePagina {
-                    display: inline-block;
-                    color: #f6f6f1;
-                }
-                .nombreFooter {
-                    font-family: $fuente-general;
-                    font-size: 20px;
-                    width: 88%; 
-                    line-height: 60px;
-                }
-                .ancho10 {
-                    width: 10%;
-                    line-height: 60px;
-                }
-                
-                .ancho30 {
-                    width: 30%;
-                }
-            }
+        p , .label {
+            font-family: "reusco";
+        }
+        li {
+            list-style: none;
         }
       }
 }
-
-
-
-
-

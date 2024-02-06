@@ -110,7 +110,6 @@ https://fonts.google.com/
     align-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
-    
 }
 
 .titulo-evento {
@@ -147,13 +146,6 @@ main {
 footer{
     background-color: black;
 }
-
-/* header {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 99;
-} */
 
 .redesSociales {
     margin-left: 30px;
@@ -268,7 +260,6 @@ form {
 .mapa {
     width: 100%;
     margin-top: 20px;
- 
 }
 
 .barraNavegacion {
@@ -302,7 +293,7 @@ h2 {
       height: 500px;
 }
 
-iframe {
+.video {
     width: 80%;
     height: 300px;
 }

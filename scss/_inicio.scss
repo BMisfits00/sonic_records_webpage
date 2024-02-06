@@ -1,0 +1,36 @@
+$background-box1: #dad9c7;
+$background-dos: #edece3;
+$background-tres: #f6f6f1;
+$barra-lateral-parrafo: rgb(123, 131, 78);
+
+.alto {
+    min-height: 100vh;
+    .titulo {
+        font-family: $fuente-general;
+        color: white;
+        display: flex;
+        font-style: italic;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .box1 {
+        border-radius: 15px;
+        padding: 15px;
+        border: 1px solid black;
+        background-color: $background-box1;
+        color: black;
+        .barralateral {
+            font-family: $fuente-general;
+            border-left: 10px solid $barra-lateral-parrafo; 
+            padding-left: 15px;
+            // color: black;
+        }
+    }
+    .dos {
+        background-color: $background-dos;
+    }
+    .tres {
+        background-color: $background-tres;
+    }
+}

@@ -1,0 +1,32 @@
+$font-subtitulo: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+.cardfondo{
+    background-color: rgb(175, 152, 134);
+    .rowfondo{
+        background-color: black;
+        margin-bottom: 15px;
+        .subtitulo{
+            text-align: center;
+            color:white;
+            text-align: center;
+            align-content: center;
+            font-family: $font-subtitulo;
+            font-size: 20px;
+        }
+    }
+    .listaContenidoAudio {
+        padding-left: 0px;
+        .itemContenidoAudio {
+            text-align: center;
+        }
+    }
+    .listaContenido{
+        padding-left: 0px;
+        .itemContenido {
+            .video {
+                width: 80%;
+                height: 300px;
+            }
+        }
+    }
+}

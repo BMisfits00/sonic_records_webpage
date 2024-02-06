@@ -1,13 +1,16 @@
+$fondo-footer: black;
+$color-items:#f6f6f1;
+
 footer{
-    background-color: black;
+    background-color: $fondo-footer;
     .redesSociales {
         margin-left: 30px;
         .item-pieDePagina {
             display: inline-block;
-            color: #f6f6f1;
+            color: $color-items;
         }
         .nombreFooter {
-            font-family: "reusco";
+            font-family: $fuente-general;
             font-size: 20px;
             width: 88%; 
             line-height: 60px;
