@@ -9,9 +9,14 @@
         main {
             min-height: 1000px;
         }
-        p , .label {
+        p {
             font-family: $fuente-general;
+            font-size: large;
         }
+        label {
+            @extend p;
+        }
+
         li {
             list-style: none;
         }

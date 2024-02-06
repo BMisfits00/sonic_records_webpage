@@ -13,8 +13,8 @@
         border-radius: 15px;
         padding: 15px;
         border: 1px solid map-get($colores-background, oscuro);
-        background-color: map-get($colores-background, fondo-cinco);
         color: map-get($colores-background, oscuro);
+        background-color: map-get($colores-background, fondo-cinco);
         .barralateral {
             font-family: $fuente-general;
             border-left: 10px solid map-get($colores-background, fondo-cuatro); 

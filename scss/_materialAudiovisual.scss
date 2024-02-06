@@ -19,7 +19,7 @@
         }
     }
     .listaContenido{
-        padding-left: 0px;
+        @extend .listaContenidoAudio;
         .itemContenido {
             .video {
                 width: 80%;
