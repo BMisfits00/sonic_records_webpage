@@ -31,16 +31,6 @@ https://fonts.google.com/
 }
 
 @font-face {
-    font-family: "brusha";
-    src: url(./multimeda/fonts/brusha/Brusha.ttf);
-}
-
-@font-face {
-    font-family: "british";
-    src: url(multimeda/fonts/british_classical/British\ Classical\ Demo.ttf);
-}
-
-@font-face {
     font-family: "reusco";
     src: url(multimeda/fonts/reusco_display/Reusco\ Display.otf);
 }
@@ -67,6 +57,18 @@ https://fonts.google.com/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:xx-large;
 }
+
+.titulo {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 13px;
+    margin-left: 2%;
+    width: 20%;
+    border: 2px solid white;
+
+}
+
 .box1 {
     border-radius: 15px;
     padding: 15px;
@@ -91,7 +93,6 @@ https://fonts.google.com/
     background-color: #f6f6f1;
 }
 .fondo {
-    
     background-size: cover;
     opacity: 0.8;
     min-height : 600px;
@@ -143,16 +144,16 @@ main {
     min-height: 1000px;
 }
 
-header, footer{
+footer{
     background-color: black;
 }
 
-header {
+/* header {
     position: sticky;
     top: 0;
     width: 100%;
     z-index: 99;
-}
+} */
 
 .redesSociales {
     margin-left: 30px;
@@ -185,21 +186,13 @@ header {
     justify-content: space-evenly;
 }
 
-.navBar {
+/* .navBar {
     display: flex;
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
-.titulo {
-    color: white;
-    font-size: 30px;
-    text-align: left;
-    margin-top: 13px;
-    margin-left: 2%;
-    width: 20%;
 
-}
 
 p , h1, .label, .nombreFooter {
     font-family: "reusco";

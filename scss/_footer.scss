@@ -1,0 +1,24 @@
+footer{
+    background-color: black;
+    .redesSociales {
+        margin-left: 30px;
+        .item-pieDePagina {
+            display: inline-block;
+            color: #f6f6f1;
+        }
+        .nombreFooter {
+            font-family: "reusco";
+            font-size: 20px;
+            width: 88%; 
+            line-height: 60px;
+        }
+        .ancho10 {
+            width: 10%;
+            line-height: 60px;
+        }
+        
+        .ancho30 {
+            width: 30%;
+        }
+    }
+}
